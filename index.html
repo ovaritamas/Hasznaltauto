@@ -10,15 +10,54 @@
         <h1>Használt autók főoldal</h1>
         <nav>
             <ul>
-                <li><a href="Személyre szabás"></a>Milyen autókat keresel?</li>
-                <li><a href="Rólunk"></a>Elérhetősegek és egyéb adatok rólunk</li>
+                <li><a href="szemelyre-szabas.html">Milyen autókat keresel?</a></li>
+                <li><a href="rolunk.html">Elérhetőségek és egyéb adatok rólunk</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <select name="Személyre szabás" id="Személyre szabás"></select>
+        <label for="szemelyre-szabas">Válassz kategóriát:</label>
+        <select name="szemelyre-szabas" id="szemelyre-szabas">
+            <option value="">-- Válassz --</option>
+            <option value="kisauto">Kisautó</option>
+            <option value="csalad">Családi autó</option>
+            <option value="terepjaro">Terepjáró</option>
+        </select>
+
+        <h2>Elérhető autók</h2>
+
+        <section>
+            <h2>Ajánlatok:</h2>
+
+            <div>
+                <p>Ford Focus 1.6 TDCI 2008</p>
+                <img src="FordFocus.jpg" alt="Ford Focus 2008" width="300">
+            </div>
+
+            <div>
+                <p>Opel Omega 3.0 V6 2001</p>
+                <img src="OpelOmega.jpg" alt="Opel Omega 2001" width="300">
+            </div>
+
+            <div>
+                <p>Volkswagen Golf V 2006</p>
+                <img src="volkswagenV.jpg" alt="Volkswagen Golf V 2006" width="300">
+            </div>
+        </section>
     </main>
-    
+
+    <footer>
+        <hr>
+        <p>&copy; 2025 HasználtAutók.hu – Minden jog fenntartva.</p>
+        <p>Kapcsolat: <a href="mailto:info@hasznaltautok.hu">info@hasznaltautok.hu</a> | Tel: +36 30 123 4567</p>
+        <p>Kövess minket:
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">YouTube</a>
+        </p>
+    </footer>
+
+    <link rel="stylesheet" href="style.css">
 </body>
 </html>

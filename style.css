@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Fejléc */
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Fő tartalom */
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Select mező */
+label, select {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/* Autó ajánlatok */
+section h2 {
+    margin-top: 2rem;
+}
+
+section div {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+section img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Lábléc */
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #aaddff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Mobilbarát elrendezés */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    section div {
+        text-align: center;
+    }
+
+    section img {
+        max-width: 100%;
+    }
+}
