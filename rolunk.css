@@ -85,3 +85,19 @@ a:hover {
         font-size: 1.1rem;
     }
 }
+
+.back-button {
+    display: inline-block;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #003366;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #005599;
+}

@@ -116,3 +116,18 @@ img:hover {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
 }
+.back-button {
+    display: inline-block;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #003366;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #005599;
+}
